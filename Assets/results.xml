@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameResults>
+  <GameResult>
+    <Name>Mark</Name>
+    <Coins>0</Coins>
+    <SpentTime>00:00:03</SpentTime>
+    <Date>12/14/2018 2:27:36 PM</Date>
+    <WasEndForced>true</WasEndForced>
+  </GameResult>
+  <GameResult>
+    <Name>mark</Name>
+    <Coins>0</Coins>
+    <SpentTime>00:00:02</SpentTime>
+    <Date>12/14/2018 2:34:30 PM</Date>
+    <WasEndForced>true</WasEndForced>
+  </GameResult>
+  <GameResult>
+    <Name>null</Name>
+    <Coins>1</Coins>
+    <SpentTime>00:00:21</SpentTime>
+    <Date>12/14/2018 3:41:06 PM</Date>
+    <WasEndForced>true</WasEndForced>
+  </GameResult>
+  <GameResult>
+    <Name>sdsd</Name>
+    <Coins>0</Coins>
+    <SpentTime>00:02:02</SpentTime>
+    <Date>12/14/2018 9:41:47 PM</Date>
+    <WasEndForced>false</WasEndForced>
+  </GameResult>
+  <GameResult>
+    <Name>dsdsd</Name>
+    <Coins>0</Coins>
+    <SpentTime>00:00:00</SpentTime>
+    <Date>12/14/2018 10:05:59 PM</Date>
+    <WasEndForced>true</WasEndForced>
+  </GameResult>
+</GameResults>
+<!-- 
+
+        //    xmlDocument.SelectNodes(xmlPathPattern).Cast<XmlNode>()
+        //    .OrderBy(
+        //     t => t.ChildNodes.Cast<XmlNode>()
+        //    .Where(t_ch => t_ch.Name == "Date")
+        //    .First()
+        //    .Value
+        //    ).ToArray();
+
+
+-->

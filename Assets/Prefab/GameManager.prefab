@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1532827197260998}
+  m_IsPrefabAsset: 1
+--- !u!1 &1532827197260998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4176042454051320}
+  - component: {fileID: 114276776862158140}
+  - component: {fileID: 114398615501090046}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4176042454051320
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1532827197260998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114276776862158140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1532827197260998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbab630853f975c4089f77850f58b28e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinsToSpawnAnEnemy: 5
+  coinsToStartHardMode: 0
+--- !u!114 &114398615501090046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1532827197260998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9111846a3f0684eb9fe64b8e099e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallTile: {fileID: 1006286470423504, guid: 1045539e0db14f549a0ee94d37f089a3, type: 2}
+  floorTile: {fileID: 1048638015419658, guid: 2d4fa6aed8995e946ae109b700cf8b15, type: 2}
+  zombieTile: {fileID: 1017558831269276, guid: 419d5d707f28188419372f838635b6ec, type: 2}
+  mummyTile: {fileID: 1011351603549440, guid: 1a0dfc5ab80bcae428981a1a1a54649d, type: 2}
+  coinTile: {fileID: 1770191281937738, guid: 3c397542484f5a64098e9084ad0ba98c, type: 2}
+  boardholder: {fileID: 0}
+  columns: 10
+  rows: 10
